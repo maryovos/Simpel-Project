@@ -19,6 +19,12 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('C:\\Users\\1556\\Downloads\\levelup-v8.apk', false)
 
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Object_LevelUp/button_Allow'), 10)
+
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.verifyElementVisible(findTestObject('Object Repository/Object_LevelUp/field_username'), 5)
 
 Mobile.takeScreenshotAsCheckpoint('Sebelum Input Username dan Password', [])
@@ -108,6 +114,12 @@ Mobile.hideKeyboard()
 Mobile.tap(findTestObject('Object Repository/Object_LevelUp/field_Uom'), 5)
 
 Mobile.tap(findTestObject('Object Repository/Object_LevelUp/select_UNIT'), 5)
+
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+CustomKeywords.'utils.swipeDown'(1)
+
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/Object_LevelUp/button_saveItem'), 5)
 

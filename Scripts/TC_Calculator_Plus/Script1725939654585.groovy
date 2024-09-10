@@ -17,29 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication(GlobalVariable.apkPath, false)
+Windows.startApplicationWithTitle('C:\\Windows\\System32\\calc.exe', 'Calculator')
 
-Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+Windows.click(findWindowsObject('Object Repository/Object_Calculator/Button_Nine'))
 
-Mobile.tap(findTestObject('Object_LevelUp/button_Allow'), 10)
+Windows.click(findWindowsObject('Object Repository/Object_Calculator/Button_Plus'))
 
-Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+Windows.click(findWindowsObject('Object Repository/Object_Calculator/Button_One'))
 
-Mobile.tap(findTestObject('Object Repository/Object_LevelUp/field_username'), 5)
+Windows.click(findWindowsObject('Object Repository/Object_Calculator/Button_Equals'))
 
-Mobile.setText(findTestObject('Object Repository/Object_LevelUp/input_username'), findTestData('DataFile-Internal').getValue(
-        1, 1), 5)
+Windows.getText(findWindowsObject('Object Repository/Object_Calculator/Veirfy_Success'))
 
-Mobile.hideKeyboard()
-
-Mobile.tap(findTestObject('Object Repository/Object_LevelUp/field_password'), 0)
-
-Mobile.setText(findTestObject('Object Repository/Object_LevelUp/input_password'), findTestData('DataFile-Internal').getValue(
-        2, 1), 5)
-
-Mobile.hideKeyboard()
-
-Mobile.tap(findTestObject('Object Repository/Object_LevelUp/button_Login'), 5)
-
-Mobile.verifyElementVisible(findTestObject('Object Repository/Object_LevelUp/verify_LoginSuccess'), 5)
+Windows.closeApplication()
 

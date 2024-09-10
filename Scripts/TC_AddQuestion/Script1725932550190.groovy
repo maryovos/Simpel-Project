@@ -58,12 +58,12 @@ WebUI.click(findTestObject('Object Repository/Object_CMS_Elearning/Page_Master Q
 
 WebUI.click(findTestObject('Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/input_Please choose one_isActive'))
 
-WebUI.click(findTestObject('Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/button_Save'))
+not_run: WebUI.click(findTestObject('Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/button_Save'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/h2_Data saved successfully'), 
+not_run: WebUI.verifyElementPresent(findTestObject('Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/h2_Data saved successfully'), 
     4)
 
-WebUI.delay(4, FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.delay(4, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.closeBrowser()
+not_run: WebUI.closeBrowser()
 

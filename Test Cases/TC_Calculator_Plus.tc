@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Calculator_Plus</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>de0936ec-3a03-4d79-81d4-cce3dba1a8ed</testCaseGuid>
+</TestCaseEntity>
