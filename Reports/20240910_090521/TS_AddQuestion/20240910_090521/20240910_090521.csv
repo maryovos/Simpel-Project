@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_AddQuestion,Chrome 128.0.0.0,,,10-09-2024 09:05:28,10-09-2024 09:05:59,30.702s,PASSED
+,,,,,,,
+Test Cases/TC_AddQuestion,Chrome 128.0.0.0,,,10-09-2024 09:05:29,10-09-2024 09:05:59,30.508s,PASSED
+"openBrowser("""")",Chrome 128.0.0.0,,,10-09-2024 09:05:29,10-09-2024 09:05:31,1.951s,PASSED
+"navigateToUrl(""http://130.211.243.37:96/login"")",Chrome 128.0.0.0,,,10-09-2024 09:05:31,10-09-2024 09:05:36,5.221s,PASSED
+"setText(findTestObject(""Object Repository/Object_CMS_Elearning/Page_Login  Elearning CMS/input_Email_email""), ""admin@indocyber.com"")",Chrome 128.0.0.0,,,10-09-2024 09:05:36,10-09-2024 09:05:37,0.869s,PASSED
+"setText(findTestObject(""Object Repository/Object_CMS_Elearning/Page_Login  Elearning CMS/input_Password_password""), ""admin123"")",Chrome 128.0.0.0,,,10-09-2024 09:05:37,10-09-2024 09:05:38,0.685s,PASSED
+"click(findTestObject(""Object Repository/Object_CMS_Elearning/Page_Login  Elearning CMS/button_Login""))",Chrome 128.0.0.0,,,10-09-2024 09:05:38,10-09-2024 09:05:38,0.362s,PASSED
+"click(findTestObject(""Object Repository/Object_CMS_Elearning/Page_Home  Elearning CMS/span_Master Question""))",Chrome 128.0.0.0,,,10-09-2024 09:05:38,10-09-2024 09:05:45,6.844s,PASSED
+"click(findTestObject(""Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/button_Add Question""))",Chrome 128.0.0.0,,,10-09-2024 09:05:45,10-09-2024 09:05:46,0.558s,PASSED
+"click(findTestObject(""Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/span_-- Choose Entity --""))",Chrome 128.0.0.0,,,10-09-2024 09:05:46,10-09-2024 09:05:46,0.621s,PASSED
+"click(findTestObject(""Object_CMS_Elearning/Page_Master Question  Elearning CMS/select_INDOCYBER""))",Chrome 128.0.0.0,,,10-09-2024 09:05:46,10-09-2024 09:05:47,0.548s,PASSED
+"click(findTestObject(""Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/span_-- Choose Branch --""))",Chrome 128.0.0.0,,,10-09-2024 09:05:47,10-09-2024 09:05:48,0.990s,PASSED
+"click(findTestObject(""Object_CMS_Elearning/Page_Master Question  Elearning CMS/select_INDOCYBER_DAAN_MOGOT""))",Chrome 128.0.0.0,,,10-09-2024 09:05:48,10-09-2024 09:05:48,0.614s,PASSED
+"setText(findTestObject(""Object_CMS_Elearning/Page_Master Question  Elearning CMS/span_textarea_Question""), ""Apa tujuan utama dari QA automation?"")",Chrome 128.0.0.0,,,10-09-2024 09:05:48,10-09-2024 09:05:49,1.035s,PASSED
+"setText(findTestObject(""Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/textarea_Option A_optA""), ""Menguji fungsi perangkat lunak secara manual"")",Chrome 128.0.0.0,,,10-09-2024 09:05:49,10-09-2024 09:05:50,0.897s,PASSED
+"setText(findTestObject(""Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/textarea_Option B_optB""), ""Mengotomatiskan tugas pengujian yang berulang untuk meningkatkan efisiensi"")",Chrome 128.0.0.0,,,10-09-2024 09:05:50,10-09-2024 09:05:51,1.097s,PASSED
+"setText(findTestObject(""Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/textarea_Option C_optC""), ""Menggantikan penguji manusia sepenuhnya"")",Chrome 128.0.0.0,,,10-09-2024 09:05:51,10-09-2024 09:05:52,0.857s,PASSED
+"setText(findTestObject(""Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/textarea_Option D_optD""), ""Mengembangkan fitur perangkat lunak yang baru"")",Chrome 128.0.0.0,,,10-09-2024 09:05:52,10-09-2024 09:05:53,0.923s,PASSED
+"click(findTestObject(""Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/input_B_correctAnswer""))",Chrome 128.0.0.0,,,10-09-2024 09:05:53,10-09-2024 09:05:53,0.348s,PASSED
+"click(findTestObject(""Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/input_Please choose one_isActive""))",Chrome 128.0.0.0,,,10-09-2024 09:05:53,10-09-2024 09:05:54,0.347s,PASSED
+"click(findTestObject(""Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/button_Save""))",Chrome 128.0.0.0,,,10-09-2024 09:05:54,10-09-2024 09:05:54,0.321s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/h2_Data saved successfully""), 4)",Chrome 128.0.0.0,,,10-09-2024 09:05:54,10-09-2024 09:05:55,0.636s,PASSED
+"delay(4, STOP_ON_FAILURE)",Chrome 128.0.0.0,,,10-09-2024 09:05:55,10-09-2024 09:05:59,4.057s,PASSED
+closeBrowser(),Chrome 128.0.0.0,,,10-09-2024 09:05:59,10-09-2024 09:05:59,0.337s,PASSED

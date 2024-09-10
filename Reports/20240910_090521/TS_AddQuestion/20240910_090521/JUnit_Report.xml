@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_AddQuestion" time="30.702" tests="1" failures="0" errors="0">
+   <testsuite name="TS_AddQuestion" tests="1" failures="0" errors="0" time="30.702" skipped="0" timestamp="10-09-2024T09:05:28" hostname="1556 - LAPTOP-PT885S91" id="Test Suites/TS_AddQuestion">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\1556\\Katalon Studio\\PANIN DAIICHI\\Simpel Project\\Reports\\20240910_090521\\TS_AddQuestion\\20240910_090521"/>
+         <property name="logFiles" value="C:\\Users\\1556\\Katalon Studio\\PANIN DAIICHI\\Simpel Project\\Reports\\20240910_090521\\TS_AddQuestion\\20240910_090521\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="1556 - LAPTOP-PT885S91"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 128.0.0.0"/>
+         <property name="hostAddress" value="192.168.56.2"/>
+         <property name="sessionId" value="90dab7336995d822da36dea7f4c81386"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC_AddQuestion" time="30.508" classname="Test Cases/TC_AddQuestion" status="PASSED">
+         <system-out><![CDATA[10-09-2024T09:05:29 - [TEST_CASE][PASSED] - Test Cases/TC_AddQuestion: Test Cases/TC_AddQuestion
+
+10-09-2024T09:05:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-09-2024T09:05:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+10-09-2024T09:05:29 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+10-09-2024T09:05:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-09-2024T09:05:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-09-2024T09:05:31 - [TEST_STEP][PASSED] - navigateToUrl("http://130.211.243.37:96/login"): Navigate to 'http://130.211.243.37:96/login' successfully
+
+10-09-2024T09:05:36 - [MESSAGE][PASSED] - Navigate to 'http://130.211.243.37:96/login' successfully
+
+10-09-2024T09:05:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Object_CMS_Elearning/Page_Login  Elearning CMS/input_Email_email"), "admin@indocyber.com"): Text 'admin@indocyber.com' is set on object 'Object Repository/Object_CMS_Elearning/Page_Login  Elearning CMS/input_Email_email'
+
+10-09-2024T09:05:37 - [MESSAGE][PASSED] - Text 'admin@indocyber.com' is set on object 'Object Repository/Object_CMS_Elearning/Page_Login  Elearning CMS/input_Email_email'
+
+10-09-2024T09:05:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Object_CMS_Elearning/Page_Login  Elearning CMS/input_Password_password"), "admin123"): Text 'admin123' is set on object 'Object Repository/Object_CMS_Elearning/Page_Login  Elearning CMS/input_Password_password'
+
+10-09-2024T09:05:38 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Object_CMS_Elearning/Page_Login  Elearning CMS/input_Password_password'
+
+10-09-2024T09:05:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Object_CMS_Elearning/Page_Login  Elearning CMS/button_Login")): Object: 'Object Repository/Object_CMS_Elearning/Page_Login  Elearning CMS/button_Login' is clicked on
+
+10-09-2024T09:05:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_CMS_Elearning/Page_Login  Elearning CMS/button_Login' is clicked on
+
+10-09-2024T09:05:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Object_CMS_Elearning/Page_Home  Elearning CMS/span_Master Question")): Object: 'Object Repository/Object_CMS_Elearning/Page_Home  Elearning CMS/span_Master Question' is clicked on
+
+10-09-2024T09:05:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_CMS_Elearning/Page_Home  Elearning CMS/span_Master Question' is clicked on
+
+10-09-2024T09:05:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/button_Add Question")): Object: 'Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/button_Add Question' is clicked on
+
+10-09-2024T09:05:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/button_Add Question' is clicked on
+
+10-09-2024T09:05:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/span_-- Choose Entity --")): Object: 'Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/span_-- Choose Entity --' is clicked on
+
+10-09-2024T09:05:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/span_-- Choose Entity --' is clicked on
+
+10-09-2024T09:05:46 - [TEST_STEP][PASSED] - click(findTestObject("Object_CMS_Elearning/Page_Master Question  Elearning CMS/select_INDOCYBER")): Object: 'Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/select_INDOCYBER' is clicked on
+
+10-09-2024T09:05:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/select_INDOCYBER' is clicked on
+
+10-09-2024T09:05:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/span_-- Choose Branch --")): Object: 'Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/span_-- Choose Branch --' is clicked on
+
+10-09-2024T09:05:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/span_-- Choose Branch --' is clicked on
+
+10-09-2024T09:05:48 - [TEST_STEP][PASSED] - click(findTestObject("Object_CMS_Elearning/Page_Master Question  Elearning CMS/select_INDOCYBER_DAAN_MOGOT")): Object: 'Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/select_INDOCYBER_DAAN_MOGOT' is clicked on
+
+10-09-2024T09:05:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/select_INDOCYBER_DAAN_MOGOT' is clicked on
+
+10-09-2024T09:05:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object_CMS_Elearning/Page_Master Question  Elearning CMS/span_textarea_Question"), "Apa tujuan utama dari QA automation?"): Text 'Apa tujuan utama dari QA automation?' is set on object 'Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/span_textarea_Question'
+
+10-09-2024T09:05:49 - [MESSAGE][PASSED] - Text 'Apa tujuan utama dari QA automation?' is set on object 'Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/span_textarea_Question'
+
+10-09-2024T09:05:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/textarea_Option A_optA"), "Menguji fungsi perangkat lunak secara manual"): Text 'Menguji fungsi perangkat lunak secara manual' is set on object 'Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/textarea_Option A_optA'
+
+10-09-2024T09:05:50 - [MESSAGE][PASSED] - Text 'Menguji fungsi perangkat lunak secara manual' is set on object 'Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/textarea_Option A_optA'
+
+10-09-2024T09:05:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/textarea_Option B_optB"), "Mengotomatiskan tugas pengujian yang berulang untuk meningkatkan efisiensi"): Text 'Mengotomatiskan tugas pengujian yang berulang untuk meningkatkan efisiensi' is set on object 'Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/textarea_Option B_optB'
+
+10-09-2024T09:05:51 - [MESSAGE][PASSED] - Text 'Mengotomatiskan tugas pengujian yang berulang untuk meningkatkan efisiensi' is set on object 'Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/textarea_Option B_optB'
+
+10-09-2024T09:05:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/textarea_Option C_optC"), "Menggantikan penguji manusia sepenuhnya"): Text 'Menggantikan penguji manusia sepenuhnya' is set on object 'Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/textarea_Option C_optC'
+
+10-09-2024T09:05:52 - [MESSAGE][PASSED] - Text 'Menggantikan penguji manusia sepenuhnya' is set on object 'Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/textarea_Option C_optC'
+
+10-09-2024T09:05:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/textarea_Option D_optD"), "Mengembangkan fitur perangkat lunak yang baru"): Text 'Mengembangkan fitur perangkat lunak yang baru' is set on object 'Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/textarea_Option D_optD'
+
+10-09-2024T09:05:53 - [MESSAGE][PASSED] - Text 'Mengembangkan fitur perangkat lunak yang baru' is set on object 'Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/textarea_Option D_optD'
+
+10-09-2024T09:05:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/input_B_correctAnswer")): Object: 'Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/input_B_correctAnswer' is clicked on
+
+10-09-2024T09:05:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/input_B_correctAnswer' is clicked on
+
+10-09-2024T09:05:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/input_Please choose one_isActive")): Object: 'Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/input_Please choose one_isActive' is clicked on
+
+10-09-2024T09:05:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/input_Please choose one_isActive' is clicked on
+
+10-09-2024T09:05:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/button_Save")): Object: 'Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/button_Save' is clicked on
+
+10-09-2024T09:05:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/button_Save' is clicked on
+
+10-09-2024T09:05:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/h2_Data saved successfully"), 4): Object 'Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/h2_Data saved successfully' is present
+
+10-09-2024T09:05:55 - [MESSAGE][PASSED] - Object 'Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/h2_Data saved successfully' is present
+
+10-09-2024T09:05:55 - [TEST_STEP][PASSED] - delay(4, STOP_ON_FAILURE): Delayed 4 second(s)
+
+10-09-2024T09:05:59 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+10-09-2024T09:05:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-09-2024T09:05:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[10-09-2024T09:05:28 - [TEST_SUITE][PASSED] - TS_AddQuestion: Test Cases/TC_AddQuestion]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

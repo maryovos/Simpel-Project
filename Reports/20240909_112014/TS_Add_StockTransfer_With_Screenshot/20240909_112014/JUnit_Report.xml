@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Add_StockTransfer_With_Screenshot" time="130.564" tests="1" failures="0" errors="0">
+   <testsuite name="TS_Add_StockTransfer_With_Screenshot" tests="1" failures="0" errors="0" time="130.564" skipped="0" timestamp="09-09-2024T11:20:23" hostname="1556 - LAPTOP-PT885S91" id="Test Suites/TS_Add_StockTransfer_With_Screenshot">
+      <properties>
+         <property name="deviceName" value="Xiaomi 2201116TG (Android 13)"/>
+         <property name="devicePlatform" value="Android"/>
+         <property name="logFolder" value="C:\\Users\\1556\\Katalon Studio\\PANIN DAIICHI\\Simpel Project\\Reports\\20240909_112014\\TS_Add_StockTransfer_With_Screenshot\\20240909_112014"/>
+         <property name="logFiles" value="C:\\Users\\1556\\Katalon Studio\\PANIN DAIICHI\\Simpel Project\\Reports\\20240909_112014\\TS_Add_StockTransfer_With_Screenshot\\20240909_112014\\appium.log, C:\\Users\\1556\\Katalon Studio\\PANIN DAIICHI\\Simpel Project\\Reports\\20240909_112014\\TS_Add_StockTransfer_With_Screenshot\\20240909_112014\\appium_error.log, C:\\Users\\1556\\Katalon Studio\\PANIN DAIICHI\\Simpel Project\\Reports\\20240909_112014\\TS_Add_StockTransfer_With_Screenshot\\20240909_112014\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-Sebelum Input Username dan Password.png, keyes\keyes-Seteleah Input Username dan Password.png, keyes\keyes-Berhasil Login.png, keyes\keyes-Berhasil Navigate To Stock Transfer.png, keyes\keyes-Sebelum Input Stock Transfer.png, keyes\keyes-Setelah Input Stock Transfer.png, keyes\keyes-Sebelum Input Item.png, keyes\keyes-Setelah Input Item.png, keyes\keyes-Sebelum Input Journal.png, keyes\keyes-Setelah Input Journal.png, keyes\keyes-Berhasil Add Stock Transfer.png"/>
+         <property name="hostName" value="1556 - LAPTOP-PT885S91"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.11.3&quot;}}}"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="2.11.3"/>
+         <property name="deviceModel" value="2201116TG"/>
+         <property name="hostAddress" value="192.168.56.2"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="SK5DMBEUOBU4LNAU"/>
+         <property name="deviceName" value="Xiaomi 2201116TG (Android 13)"/>
+         <property name="deviceOSVersion" value="13"/>
+      </properties>
+      <testcase name="Test Cases/TC_Add_StockTransfer_With_Screenshot" time="130.366" classname="Test Cases/TC_Add_StockTransfer_With_Screenshot" status="PASSED">
+         <system-out><![CDATA[09-09-2024T11:20:23 - [TEST_CASE][PASSED] - Test Cases/TC_Add_StockTransfer_With_Screenshot: Test Cases/TC_Add_StockTransfer_With_Screenshot
+
+09-09-2024T11:20:23 - [TEST_STEP][PASSED] - startApplication("C:\Users\1556\Downloads\levelup-v8.apk", false): Started application: 'C:\Users\1556\Downloads\levelup-v8.apk'
+
+09-09-2024T11:20:24 - [MESSAGE][INFO] - Starting application: 'C:\Users\1556\Downloads\levelup-v8.apk'
+
+09-09-2024T11:20:24 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+09-09-2024T11:20:35 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+09-09-2024T11:20:35 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\1556\.appium
+
+09-09-2024T11:20:35 - [MESSAGE][INFO] - appium outlog: C:\Users\1556\Katalon Studio\PANIN DAIICHI\Simpel Project\Reports\20240909_112014\TS_Add_StockTransfer_With_Screenshot\20240909_112014\appium.log
+
+09-09-2024T11:20:35 - [MESSAGE][INFO] - appium errlog: C:\Users\1556\Katalon Studio\PANIN DAIICHI\Simpel Project\Reports\20240909_112014\TS_Add_StockTransfer_With_Screenshot\20240909_112014\appium_error.log
+
+09-09-2024T11:20:37 - [MESSAGE][INFO] - Appium server started on port 53,740
+
+09-09-2024T11:20:47 - [MESSAGE][PASSED] - Started application: 'C:\Users\1556\Downloads\levelup-v8.apk'
+
+09-09-2024T11:20:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Object_LevelUp/field_username"), 5): Element 'Object Repository/Object_LevelUp/field_username' is visible
+
+09-09-2024T11:20:48 - [MESSAGE][PASSED] - Element 'Object Repository/Object_LevelUp/field_username' is visible
+
+09-09-2024T11:20:48 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Sebelum Input Username dan Password", []): Screenshot is taken
+
+09-09-2024T11:20:49 - [MESSAGE][INFO] - 0 hidden object(s)
+
+09-09-2024T11:20:49 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-Sebelum Input Username dan Password.png]]
+
+09-09-2024T11:20:49 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+09-09-2024T11:20:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+09-09-2024T11:20:51 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Object_LevelUp/field_username"), 5): Tapped on element 'Object Repository/Object_LevelUp/field_username'
+
+09-09-2024T11:20:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Object_LevelUp/field_username'
+
+09-09-2024T11:20:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Object_LevelUp/input_username"), "administrator", 5): Text 'administrator' has been set to element 'Object Repository/Object_LevelUp/input_username'
+
+09-09-2024T11:20:54 - [MESSAGE][PASSED] - Text 'administrator' has been set to element 'Object Repository/Object_LevelUp/input_username'
+
+09-09-2024T11:20:54 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+09-09-2024T11:20:55 - [MESSAGE][PASSED] - Keyboard is hidden
+
+09-09-2024T11:20:55 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Object_LevelUp/field_password"), 0): Tapped on element 'Object Repository/Object_LevelUp/field_password'
+
+09-09-2024T11:20:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+09-09-2024T11:20:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Object_LevelUp/field_password'
+
+09-09-2024T11:20:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Object_LevelUp/input_password"), "1234567890", 5): Text '1234567890' has been set to element 'Object Repository/Object_LevelUp/input_password'
+
+09-09-2024T11:20:57 - [MESSAGE][PASSED] - Text '1234567890' has been set to element 'Object Repository/Object_LevelUp/input_password'
+
+09-09-2024T11:20:57 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+09-09-2024T11:20:59 - [MESSAGE][PASSED] - Keyboard is hidden
+
+09-09-2024T11:20:59 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Seteleah Input Username dan Password", []): Screenshot is taken
+
+09-09-2024T11:21:00 - [MESSAGE][INFO] - 0 hidden object(s)
+
+09-09-2024T11:21:00 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-Seteleah Input Username dan Password.png]]
+
+09-09-2024T11:21:00 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+09-09-2024T11:21:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+09-09-2024T11:21:02 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Object_LevelUp/button_Login"), 5): Tapped on element 'Object Repository/Object_LevelUp/button_Login'
+
+09-09-2024T11:21:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Object_LevelUp/button_Login'
+
+09-09-2024T11:21:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Object_LevelUp/verify_LoginSuccess"), 5): Element 'Object Repository/Object_LevelUp/verify_LoginSuccess' is visible
+
+09-09-2024T11:21:06 - [MESSAGE][PASSED] - Element 'Object Repository/Object_LevelUp/verify_LoginSuccess' is visible
+
+09-09-2024T11:21:06 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Berhasil Login", []): Screenshot is taken
+
+09-09-2024T11:21:06 - [MESSAGE][INFO] - 0 hidden object(s)
+
+09-09-2024T11:21:07 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-Berhasil Login.png]]
+
+09-09-2024T11:21:07 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Object_LevelUp/button_burgerMenu"), 5): Tapped on element 'Object Repository/Object_LevelUp/button_burgerMenu'
+
+09-09-2024T11:21:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Object_LevelUp/button_burgerMenu'
+
+09-09-2024T11:21:08 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Object_LevelUp/menu_Inventory"), 5): Tapped on element 'Object Repository/Object_LevelUp/menu_Inventory'
+
+09-09-2024T11:21:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Object_LevelUp/menu_Inventory'
+
+09-09-2024T11:21:09 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Object_LevelUp/submenu_StockTransfer"), 5): Tapped on element 'Object Repository/Object_LevelUp/submenu_StockTransfer'
+
+09-09-2024T11:21:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Object_LevelUp/submenu_StockTransfer'
+
+09-09-2024T11:21:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Object_LevelUp/verify_NavigateToStockTransfer"), 5): Element 'Object Repository/Object_LevelUp/verify_NavigateToStockTransfer' is visible
+
+09-09-2024T11:21:10 - [MESSAGE][PASSED] - Element 'Object Repository/Object_LevelUp/verify_NavigateToStockTransfer' is visible
+
+09-09-2024T11:21:10 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Berhasil Navigate To Stock Transfer", []): Screenshot is taken
+
+09-09-2024T11:21:11 - [MESSAGE][INFO] - 0 hidden object(s)
+
+09-09-2024T11:21:11 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-Berhasil Navigate To Stock Transfer.png]]
+
+09-09-2024T11:21:11 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+09-09-2024T11:21:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+09-09-2024T11:21:13 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Object_LevelUp/button_Add"), 5): Tapped on element 'Object Repository/Object_LevelUp/button_Add'
+
+09-09-2024T11:21:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Object_LevelUp/button_Add'
+
+09-09-2024T11:21:14 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Sebelum Input Stock Transfer", []): Screenshot is taken
+
+09-09-2024T11:21:15 - [MESSAGE][INFO] - 0 hidden object(s)
+
+09-09-2024T11:21:15 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-Sebelum Input Stock Transfer.png]]
+
+09-09-2024T11:21:15 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+09-09-2024T11:21:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+09-09-2024T11:21:17 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Object_LevelUp/field_PostingDate"), 5): Tapped on element 'Object Repository/Object_LevelUp/field_PostingDate'
+
+09-09-2024T11:21:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Object_LevelUp/field_PostingDate'
+
+09-09-2024T11:21:18 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Object_LevelUp/button_OK_selectDate"), 5): Tapped on element 'Object Repository/Object_LevelUp/button_OK_selectDate'
+
+09-09-2024T11:21:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Object_LevelUp/button_OK_selectDate'
+
+09-09-2024T11:21:19 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Object_LevelUp/field_DocDate"), 5): Tapped on element 'Object Repository/Object_LevelUp/field_DocDate'
+
+09-09-2024T11:21:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Object_LevelUp/field_DocDate'
+
+09-09-2024T11:21:21 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Object_LevelUp/button_OK_selectDate"), 5): Tapped on element 'Object Repository/Object_LevelUp/button_OK_selectDate'
+
+09-09-2024T11:21:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Object_LevelUp/button_OK_selectDate'
+
+09-09-2024T11:21:22 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Object_LevelUp/select_FromWarehouse"), 5): Tapped on element 'Object Repository/Object_LevelUp/select_FromWarehouse'
+
+09-09-2024T11:21:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Object_LevelUp/select_FromWarehouse'
+
+09-09-2024T11:21:23 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Object_LevelUp/select_GudangJakartaSelatan"), 5): Tapped on element 'Object Repository/Object_LevelUp/select_GudangJakartaSelatan'
+
+09-09-2024T11:21:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Object_LevelUp/select_GudangJakartaSelatan'
+
+09-09-2024T11:21:25 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Object_LevelUp/select_ToWarehouse"), 5): Tapped on element 'Object Repository/Object_LevelUp/select_ToWarehouse'
+
+09-09-2024T11:21:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Object_LevelUp/select_ToWarehouse'
+
+09-09-2024T11:21:26 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Object_LevelUp/select_GudangJakartaUtara"), 5): Tapped on element 'Object Repository/Object_LevelUp/select_GudangJakartaUtara'
+
+09-09-2024T11:21:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Object_LevelUp/select_GudangJakartaUtara'
+
+09-09-2024T11:21:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Object_LevelUp/input_Reference"), "ref test", 5): Text 'ref test' has been set to element 'Object Repository/Object_LevelUp/input_Reference'
+
+09-09-2024T11:21:30 - [MESSAGE][PASSED] - Text 'ref test' has been set to element 'Object Repository/Object_LevelUp/input_Reference'
+
+09-09-2024T11:21:30 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+09-09-2024T11:21:31 - [MESSAGE][PASSED] - Keyboard is hidden
+
+09-09-2024T11:21:31 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Setelah Input Stock Transfer", []): Screenshot is taken
+
+09-09-2024T11:21:31 - [MESSAGE][INFO] - 0 hidden object(s)
+
+09-09-2024T11:21:31 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-Setelah Input Stock Transfer.png]]
+
+09-09-2024T11:21:31 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+09-09-2024T11:21:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+09-09-2024T11:21:33 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Object_LevelUp/button_Next"), 5): Tapped on element 'Object Repository/Object_LevelUp/button_Next'
+
+09-09-2024T11:21:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Object_LevelUp/button_Next'
+
+09-09-2024T11:21:34 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Sebelum Input Item", []): Screenshot is taken
+
+09-09-2024T11:21:36 - [MESSAGE][INFO] - 0 hidden object(s)
+
+09-09-2024T11:21:36 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-Sebelum Input Item.png]]
+
+09-09-2024T11:21:36 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+09-09-2024T11:21:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+09-09-2024T11:21:38 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Object_LevelUp/button_AddItem"), 5): Tapped on element 'Object Repository/Object_LevelUp/button_AddItem'
+
+09-09-2024T11:21:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Object_LevelUp/button_AddItem'
+
+09-09-2024T11:21:39 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Object_LevelUp/field_ItemNumber"), 5): Tapped on element 'Object Repository/Object_LevelUp/field_ItemNumber'
+
+09-09-2024T11:21:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Object_LevelUp/field_ItemNumber'
+
+09-09-2024T11:21:39 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Object_LevelUp/select_SPIDOL_BIRU_BESAR"), 15): Tapped on element 'Object Repository/Object_LevelUp/select_SPIDOL_BIRU_BESAR'
+
+09-09-2024T11:21:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Object_LevelUp/select_SPIDOL_BIRU_BESAR'
+
+09-09-2024T11:21:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Object_LevelUp/field_Qty"), "7", 5): Text '7' has been set to element 'Object Repository/Object_LevelUp/field_Qty'
+
+09-09-2024T11:21:51 - [MESSAGE][PASSED] - Text '7' has been set to element 'Object Repository/Object_LevelUp/field_Qty'
+
+09-09-2024T11:21:51 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+09-09-2024T11:21:53 - [MESSAGE][PASSED] - Keyboard is hidden
+
+09-09-2024T11:21:53 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Object_LevelUp/field_Uom"), 5): Tapped on element 'Object Repository/Object_LevelUp/field_Uom'
+
+09-09-2024T11:21:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Object_LevelUp/field_Uom'
+
+09-09-2024T11:21:54 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Object_LevelUp/select_UNIT"), 5): Tapped on element 'Object Repository/Object_LevelUp/select_UNIT'
+
+09-09-2024T11:21:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Object_LevelUp/select_UNIT'
+
+09-09-2024T11:21:56 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Object_LevelUp/button_saveItem"), 5): Tapped on element 'Object Repository/Object_LevelUp/button_saveItem'
+
+09-09-2024T11:21:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Object_LevelUp/button_saveItem'
+
+09-09-2024T11:21:59 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Setelah Input Item", []): Screenshot is taken
+
+09-09-2024T11:22:00 - [MESSAGE][INFO] - 0 hidden object(s)
+
+09-09-2024T11:22:00 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-Setelah Input Item.png]]
+
+09-09-2024T11:22:00 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+09-09-2024T11:22:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+09-09-2024T11:22:02 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Object_LevelUp/button_Next (1)"), 5): Tapped on element 'Object Repository/Object_LevelUp/button_Next (1)'
+
+09-09-2024T11:22:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Object_LevelUp/button_Next (1)'
+
+09-09-2024T11:22:03 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Sebelum Input Journal", []): Screenshot is taken
+
+09-09-2024T11:22:03 - [MESSAGE][INFO] - 0 hidden object(s)
+
+09-09-2024T11:22:03 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-Sebelum Input Journal.png]]
+
+09-09-2024T11:22:03 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+09-09-2024T11:22:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+09-09-2024T11:22:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object_LevelUp/field_JournalRemark"), "Journal Remark Automation", 5): Text 'Journal Remark Automation' has been set to element 'Object Repository/Object_LevelUp/field_JournalRemark'
+
+09-09-2024T11:22:07 - [MESSAGE][PASSED] - Text 'Journal Remark Automation' has been set to element 'Object Repository/Object_LevelUp/field_JournalRemark'
+
+09-09-2024T11:22:07 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+09-09-2024T11:22:08 - [MESSAGE][PASSED] - Keyboard is hidden
+
+09-09-2024T11:22:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Object_LevelUp/field_Description"), "Description Automation", 5): Text 'Description Automation' has been set to element 'Object Repository/Object_LevelUp/field_Description'
+
+09-09-2024T11:22:10 - [MESSAGE][PASSED] - Text 'Description Automation' has been set to element 'Object Repository/Object_LevelUp/field_Description'
+
+09-09-2024T11:22:10 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+09-09-2024T11:22:11 - [MESSAGE][PASSED] - Keyboard is hidden
+
+09-09-2024T11:22:11 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Setelah Input Journal", []): Screenshot is taken
+
+09-09-2024T11:22:11 - [MESSAGE][INFO] - 0 hidden object(s)
+
+09-09-2024T11:22:11 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-Setelah Input Journal.png]]
+
+09-09-2024T11:22:11 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+09-09-2024T11:22:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+09-09-2024T11:22:13 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Object_LevelUp/button_Save"), 5): Tapped on element 'Object Repository/Object_LevelUp/button_Save'
+
+09-09-2024T11:22:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Object_LevelUp/button_Save'
+
+09-09-2024T11:22:14 - [TEST_STEP][PASSED] - delay(10, STOP_ON_FAILURE): Delayed 10 second(s)
+
+09-09-2024T11:22:24 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+09-09-2024T11:22:24 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Berhasil Add Stock Transfer", []): Screenshot is taken
+
+09-09-2024T11:22:25 - [MESSAGE][INFO] - 0 hidden object(s)
+
+09-09-2024T11:22:25 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-Berhasil Add Stock Transfer.png]]
+
+09-09-2024T11:22:25 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+09-09-2024T11:22:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+09-09-2024T11:22:27 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+09-09-2024T11:22:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+09-09-2024T11:22:32 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+09-09-2024T11:22:33 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[09-09-2024T11:20:23 - [TEST_SUITE][PASSED] - TS_Add_StockTransfer_With_Screenshot: Test Cases/TC_Add_StockTransfer_With_Screenshot]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

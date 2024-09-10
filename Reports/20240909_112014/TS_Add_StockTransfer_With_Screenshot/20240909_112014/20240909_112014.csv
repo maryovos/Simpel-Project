@@ -1,0 +1,68 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Add_StockTransfer_With_Screenshot,,,,09-09-2024 11:20:23,09-09-2024 11:22:33,2m - 10.564s,PASSED
+,,,,,,,
+Test Cases/TC_Add_StockTransfer_With_Screenshot,,,,09-09-2024 11:20:23,09-09-2024 11:22:33,2m - 10.366s,PASSED
+"startApplication(""C:\Users\1556\Downloads\levelup-v8.apk"", false)",,,,09-09-2024 11:20:23,09-09-2024 11:20:47,23.357s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Object_LevelUp/field_username""), 5)",,,,09-09-2024 11:20:47,09-09-2024 11:20:48,0.979s,PASSED
+"takeScreenshotAsCheckpoint(""Sebelum Input Username dan Password"", [])",,,,09-09-2024 11:20:48,09-09-2024 11:20:49,1.236s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,09-09-2024 11:20:49,09-09-2024 11:20:51,2.035s,PASSED
+"tap(findTestObject(""Object Repository/Object_LevelUp/field_username""), 5)",,,,09-09-2024 11:20:51,09-09-2024 11:20:51,0.351s,PASSED
+"setText(findTestObject(""Object Repository/Object_LevelUp/input_username""), ""administrator"", 5)",,,,09-09-2024 11:20:51,09-09-2024 11:20:54,2.304s,PASSED
+hideKeyboard(),,,,09-09-2024 11:20:54,09-09-2024 11:20:55,1.006s,PASSED
+"tap(findTestObject(""Object Repository/Object_LevelUp/field_password""), 0)",,,,09-09-2024 11:20:55,09-09-2024 11:20:55,0.751s,PASSED
+"setText(findTestObject(""Object Repository/Object_LevelUp/input_password""), ""1234567890"", 5)",,,,09-09-2024 11:20:55,09-09-2024 11:20:57,1.321s,PASSED
+hideKeyboard(),,,,09-09-2024 11:20:57,09-09-2024 11:20:59,2.112s,PASSED
+"takeScreenshotAsCheckpoint(""Seteleah Input Username dan Password"", [])",,,,09-09-2024 11:20:59,09-09-2024 11:21:00,0.932s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,09-09-2024 11:21:00,09-09-2024 11:21:02,2.014s,PASSED
+"tap(findTestObject(""Object Repository/Object_LevelUp/button_Login""), 5)",,,,09-09-2024 11:21:02,09-09-2024 11:21:03,0.838s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Object_LevelUp/verify_LoginSuccess""), 5)",,,,09-09-2024 11:21:03,09-09-2024 11:21:06,3.043s,PASSED
+"takeScreenshotAsCheckpoint(""Berhasil Login"", [])",,,,09-09-2024 11:21:06,09-09-2024 11:21:07,0.948s,PASSED
+"tap(findTestObject(""Object Repository/Object_LevelUp/button_burgerMenu""), 5)",,,,09-09-2024 11:21:07,09-09-2024 11:21:08,1.133s,PASSED
+"tap(findTestObject(""Object Repository/Object_LevelUp/menu_Inventory""), 5)",,,,09-09-2024 11:21:08,09-09-2024 11:21:09,1.071s,PASSED
+"tap(findTestObject(""Object Repository/Object_LevelUp/submenu_StockTransfer""), 5)",,,,09-09-2024 11:21:09,09-09-2024 11:21:10,1.329s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Object_LevelUp/verify_NavigateToStockTransfer""), 5)",,,,09-09-2024 11:21:10,09-09-2024 11:21:10,0.265s,PASSED
+"takeScreenshotAsCheckpoint(""Berhasil Navigate To Stock Transfer"", [])",,,,09-09-2024 11:21:10,09-09-2024 11:21:11,0.764s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,09-09-2024 11:21:11,09-09-2024 11:21:13,2.016s,PASSED
+"tap(findTestObject(""Object Repository/Object_LevelUp/button_Add""), 5)",,,,09-09-2024 11:21:13,09-09-2024 11:21:14,1.270s,PASSED
+"takeScreenshotAsCheckpoint(""Sebelum Input Stock Transfer"", [])",,,,09-09-2024 11:21:14,09-09-2024 11:21:15,0.888s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,09-09-2024 11:21:15,09-09-2024 11:21:17,2.013s,PASSED
+"tap(findTestObject(""Object Repository/Object_LevelUp/field_PostingDate""), 5)",,,,09-09-2024 11:21:17,09-09-2024 11:21:18,1.132s,PASSED
+"tap(findTestObject(""Object Repository/Object_LevelUp/button_OK_selectDate""), 5)",,,,09-09-2024 11:21:18,09-09-2024 11:21:19,0.632s,PASSED
+"tap(findTestObject(""Object Repository/Object_LevelUp/field_DocDate""), 5)",,,,09-09-2024 11:21:19,09-09-2024 11:21:21,1.620s,PASSED
+"tap(findTestObject(""Object Repository/Object_LevelUp/button_OK_selectDate""), 5)",,,,09-09-2024 11:21:21,09-09-2024 11:21:22,1.631s,PASSED
+"tap(findTestObject(""Object Repository/Object_LevelUp/select_FromWarehouse""), 5)",,,,09-09-2024 11:21:22,09-09-2024 11:21:23,0.376s,PASSED
+"tap(findTestObject(""Object Repository/Object_LevelUp/select_GudangJakartaSelatan""), 5)",,,,09-09-2024 11:21:23,09-09-2024 11:21:25,2.095s,PASSED
+"tap(findTestObject(""Object Repository/Object_LevelUp/select_ToWarehouse""), 5)",,,,09-09-2024 11:21:25,09-09-2024 11:21:26,0.841s,PASSED
+"tap(findTestObject(""Object Repository/Object_LevelUp/select_GudangJakartaUtara""), 5)",,,,09-09-2024 11:21:26,09-09-2024 11:21:27,1.843s,PASSED
+"setText(findTestObject(""Object Repository/Object_LevelUp/input_Reference""), ""ref test"", 5)",,,,09-09-2024 11:21:27,09-09-2024 11:21:30,2.074s,PASSED
+hideKeyboard(),,,,09-09-2024 11:21:30,09-09-2024 11:21:31,0.986s,PASSED
+"takeScreenshotAsCheckpoint(""Setelah Input Stock Transfer"", [])",,,,09-09-2024 11:21:31,09-09-2024 11:21:31,0.709s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,09-09-2024 11:21:31,09-09-2024 11:21:33,2.015s,PASSED
+"tap(findTestObject(""Object Repository/Object_LevelUp/button_Next""), 5)",,,,09-09-2024 11:21:33,09-09-2024 11:21:34,1.207s,PASSED
+"takeScreenshotAsCheckpoint(""Sebelum Input Item"", [])",,,,09-09-2024 11:21:34,09-09-2024 11:21:36,1.161s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,09-09-2024 11:21:36,09-09-2024 11:21:38,2.011s,PASSED
+"tap(findTestObject(""Object Repository/Object_LevelUp/button_AddItem""), 5)",,,,09-09-2024 11:21:38,09-09-2024 11:21:39,0.947s,PASSED
+"tap(findTestObject(""Object Repository/Object_LevelUp/field_ItemNumber""), 5)",,,,09-09-2024 11:21:39,09-09-2024 11:21:39,0.473s,PASSED
+"tap(findTestObject(""Object Repository/Object_LevelUp/select_SPIDOL_BIRU_BESAR""), 15)",,,,09-09-2024 11:21:39,09-09-2024 11:21:50,10.504s,PASSED
+"setText(findTestObject(""Object Repository/Object_LevelUp/field_Qty""), ""7"", 5)",,,,09-09-2024 11:21:50,09-09-2024 11:21:51,1.287s,PASSED
+hideKeyboard(),,,,09-09-2024 11:21:51,09-09-2024 11:21:53,2.418s,PASSED
+"tap(findTestObject(""Object Repository/Object_LevelUp/field_Uom""), 5)",,,,09-09-2024 11:21:53,09-09-2024 11:21:54,0.730s,PASSED
+"tap(findTestObject(""Object Repository/Object_LevelUp/select_UNIT""), 5)",,,,09-09-2024 11:21:54,09-09-2024 11:21:56,2.097s,PASSED
+"tap(findTestObject(""Object Repository/Object_LevelUp/button_saveItem""), 5)",,,,09-09-2024 11:21:56,09-09-2024 11:21:59,2.543s,PASSED
+"takeScreenshotAsCheckpoint(""Setelah Input Item"", [])",,,,09-09-2024 11:21:59,09-09-2024 11:22:00,1.070s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,09-09-2024 11:22:00,09-09-2024 11:22:02,2.013s,PASSED
+"tap(findTestObject(""Object Repository/Object_LevelUp/button_Next (1)""), 5)",,,,09-09-2024 11:22:02,09-09-2024 11:22:03,0.830s,PASSED
+"takeScreenshotAsCheckpoint(""Sebelum Input Journal"", [])",,,,09-09-2024 11:22:03,09-09-2024 11:22:03,0.859s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,09-09-2024 11:22:03,09-09-2024 11:22:05,2.010s,PASSED
+"setText(findTestObject(""Object_LevelUp/field_JournalRemark""), ""Journal Remark Automation"", 5)",,,,09-09-2024 11:22:05,09-09-2024 11:22:07,1.647s,PASSED
+hideKeyboard(),,,,09-09-2024 11:22:07,09-09-2024 11:22:08,0.984s,PASSED
+"setText(findTestObject(""Object Repository/Object_LevelUp/field_Description""), ""Description Automation"", 5)",,,,09-09-2024 11:22:08,09-09-2024 11:22:10,1.649s,PASSED
+hideKeyboard(),,,,09-09-2024 11:22:10,09-09-2024 11:22:11,0.882s,PASSED
+"takeScreenshotAsCheckpoint(""Setelah Input Journal"", [])",,,,09-09-2024 11:22:11,09-09-2024 11:22:11,0.745s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,09-09-2024 11:22:11,09-09-2024 11:22:13,2.013s,PASSED
+"tap(findTestObject(""Object Repository/Object_LevelUp/button_Save""), 5)",,,,09-09-2024 11:22:13,09-09-2024 11:22:14,1.099s,PASSED
+"delay(10, STOP_ON_FAILURE)",,,,09-09-2024 11:22:14,09-09-2024 11:22:24,10.014s,PASSED
+"takeScreenshotAsCheckpoint(""Berhasil Add Stock Transfer"", [])",,,,09-09-2024 11:22:24,09-09-2024 11:22:25,0.946s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,09-09-2024 11:22:25,09-09-2024 11:22:27,2.013s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,09-09-2024 11:22:27,09-09-2024 11:22:32,5.017s,PASSED
+closeApplication(),,,,09-09-2024 11:22:32,09-09-2024 11:22:33,0.811s,PASSED

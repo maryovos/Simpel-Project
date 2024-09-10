@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Add_StockTransfer_With_Screenshot</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2b8b229f-dc7d-4faa-a99f-1821404fef37</testCaseGuid>
+</TestCaseEntity>

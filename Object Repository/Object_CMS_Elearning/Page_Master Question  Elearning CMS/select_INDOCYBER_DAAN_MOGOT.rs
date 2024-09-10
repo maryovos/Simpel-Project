@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_INDOCYBER_DAAN_MOGOT</name>
+   <tag></tag>
+   <elementGuidId>096f264a-8b23-4f53-b92b-10d08342cebd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//li[(text() = 'INDOCYBER DAAN MOGOT' or . = 'INDOCYBER DAAN MOGOT')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>5a46bf99-8058-4873-80a0-f7f6539cb4d2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>select2-results__option</value>
+      <webElementGuid>52696ca0-3da1-48e2-9fdb-9a4e84ae0d03</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>INDOCYBER DAAN MOGOT</value>
+      <webElementGuid>f9a01e45-b48a-49ca-964e-0fc74addf969</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
