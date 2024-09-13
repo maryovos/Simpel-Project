@@ -17,33 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://2captcha.com/demo/recaptcha-v2')
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://130.211.243.37:96/login')
+
+WebUI.setText(findTestObject('Object Repository/Object_CMS_Elearning/Page_Login  Elearning CMS/input_Email_email'), 'admin@indocyber.com')
+
+WebUI.setText(findTestObject('Object Repository/Object_CMS_Elearning/Page_Login  Elearning CMS/input_Password_password'), 
+    'admin123')
+
+WebUI.click(findTestObject('Object Repository/Object_CMS_Elearning/Page_Login  Elearning CMS/button_Login'))
+
+WebUI.click(findTestObject('Object Repository/Object_CMS_Elearning/Page_Home  Elearning CMS/span_Master Question'))
 
 WebUI.delay(5)
 
-WebUI.takeScreenshotAsCheckpoint('Success Navigate To URL')
+WebUI.verifyElementText(findTestObject('Object_CMS_Elearning/Page_Master Question  Elearning CMS/verify_Title_MasterQuestion'), 
+    'Master Question')
 
-WebUI.switchToFrame(findTestObject('Object_Captcha/switchToIframe'), 10)
+WebUI.takeElementScreenshotAsCheckpoint('Berhasil Verify Title Master Question', findTestObject('Object_CMS_Elearning/Page_Master Question  Elearning CMS/verify_Title_MasterQuestion'))
 
-WebUI.waitForElementPresent(findTestObject('Object_Captcha/check_ImNotARobot'), 10)
+WebUI.takeScreenshotAsCheckpoint('Berhasil Navigate to Master Question')
 
-WebUI.delay(2)
+WebUI.delay(3)
 
-WebUI.takeScreenshotAsCheckpoint('Before Click I\'m Not a Robot ')
 
-WebUI.click(findTestObject('Object_Captcha/check_ImNotARobot'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(60)
-
-WebUI.switchToDefaultContent()
-
-WebUI.takeScreenshotAsCheckpoint('After Verify reCaptcha')
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Object_Captcha/button_check'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementPresent(findTestObject('Object_Captcha/verify_successMessage'), 5)
-
-WebUI.takeScreenshotAsCheckpoint('Success Check Captcha')
 

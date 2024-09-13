@@ -19,4 +19,9 @@
       <initValue>'1234567890'</initValue>
       <name>password_valid</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>token</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

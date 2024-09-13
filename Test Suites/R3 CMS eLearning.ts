@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS_Add_StockTransfer_With_Screenshot</name>
+   <name>R3 CMS eLearning</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>0</numberOfRerun>
+   <numberOfRerun>3</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>68a884ad-b831-4d0c-b62b-5cd1e1e05ed5</testSuiteGuid>
+   <testSuiteGuid>1447fce4-9b9a-486a-a24d-e4291ed977bf</testSuiteGuid>
    <testCaseLink>
-      <guid>a6a3359a-f2c6-4919-8144-dc45384d65d6</guid>
+      <guid>8becdb06-4043-4669-bd81-7f6f4b641984</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC_Add_StockTransfer_With_Screenshot</testCaseId>
+      <testCaseId>Test Cases/TC_NavigateToMasterEmployee - TestRail</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

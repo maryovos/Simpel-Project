@@ -17,33 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://2captcha.com/demo/recaptcha-v2')
+response = WS.sendRequest(findTestObject('Object_API/POST_LOGIN'))
 
-WebUI.delay(5)
+GlobalVariable.token = WS.getElementPropertyValue(response, 'data.token')
 
-WebUI.takeScreenshotAsCheckpoint('Success Navigate To URL')
+responseStockTransfer = WS.sendRequest(findTestObject('Object_API/POST_Inventory_StockTransfer_GetAll', [('token') : GlobalVariable.token]))
 
-WebUI.switchToFrame(findTestObject('Object_Captcha/switchToIframe'), 10)
+WS.verifyResponseStatusCode(responseStockTransfer, 200)
 
-WebUI.waitForElementPresent(findTestObject('Object_Captcha/check_ImNotARobot'), 10)
-
-WebUI.delay(2)
-
-WebUI.takeScreenshotAsCheckpoint('Before Click I\'m Not a Robot ')
-
-WebUI.click(findTestObject('Object_Captcha/check_ImNotARobot'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(60)
-
-WebUI.switchToDefaultContent()
-
-WebUI.takeScreenshotAsCheckpoint('After Verify reCaptcha')
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Object_Captcha/button_check'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementPresent(findTestObject('Object_Captcha/verify_successMessage'), 5)
-
-WebUI.takeScreenshotAsCheckpoint('Success Check Captcha')
+WS.verifyElementText(responseStockTransfer, 'message', 'success')
 

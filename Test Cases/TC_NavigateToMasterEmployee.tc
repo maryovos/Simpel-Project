@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_NavigateToMasterEmployee</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ed4c007f-2b96-4b7d-adf1-0529607e3c7e</testCaseGuid>
+</TestCaseEntity>

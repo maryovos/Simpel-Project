@@ -17,33 +17,28 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://2captcha.com/demo/recaptcha-v2')
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://34.128.87.8:8084/login')
+
+WebUI.setText(findTestObject('Object_CMS/field_username'), 'admin@indocyber.com')
+
+WebUI.setText(findTestObject('Object_CMS/field_password'), 'admin123')
+
+WebUI.click(findTestObject('Object_CMS/button_login'))
+
+WebUI.verifyElementPresent(findTestObject('Object_CMS/menu_MasterEmployee'), 5)
+
+WebUI.click(findTestObject('Object_CMS/menu_MasterEmployee'))
 
 WebUI.delay(5)
 
-WebUI.takeScreenshotAsCheckpoint('Success Navigate To URL')
+WebUI.verifyElementText(findTestObject('Object_CMS/verify_NavigateToMasterEmployee_Success'), 'Master Employee')
 
-WebUI.switchToFrame(findTestObject('Object_Captcha/switchToIframe'), 10)
+WebUI.takeElementScreenshot('Berhasil Verify Title Master Question', findTestObject('Object_CMS/verify_NavigateToMasterEmployee_Success'))
 
-WebUI.waitForElementPresent(findTestObject('Object_Captcha/check_ImNotARobot'), 10)
+WebUI.takeScreenshotAsCheckpoint('Berhasil Navigate to Master Question')
 
-WebUI.delay(2)
+not_run: WebUI.delay(3)
 
-WebUI.takeScreenshotAsCheckpoint('Before Click I\'m Not a Robot ')
-
-WebUI.click(findTestObject('Object_Captcha/check_ImNotARobot'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(60)
-
-WebUI.switchToDefaultContent()
-
-WebUI.takeScreenshotAsCheckpoint('After Verify reCaptcha')
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Object_Captcha/button_check'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementPresent(findTestObject('Object_Captcha/verify_successMessage'), 5)
-
-WebUI.takeScreenshotAsCheckpoint('Success Check Captcha')
 

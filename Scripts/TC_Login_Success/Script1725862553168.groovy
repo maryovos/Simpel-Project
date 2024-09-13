@@ -42,4 +42,3 @@ Mobile.hideKeyboard()
 Mobile.tap(findTestObject('Object Repository/Object_LevelUp/button_Login'), 5)
 
 Mobile.verifyElementVisible(findTestObject('Object Repository/Object_LevelUp/verify_LoginSuccess'), 5)
-

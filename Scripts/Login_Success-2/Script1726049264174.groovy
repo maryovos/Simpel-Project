@@ -17,33 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://2captcha.com/demo/recaptcha-v2')
+Mobile.startApplication(GlobalVariable.apkPath, false)
 
-WebUI.delay(5)
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshotAsCheckpoint('Success Navigate To URL')
+Mobile.tap(findTestObject('Object_LevelUp/button_Allow'), 10)
 
-WebUI.switchToFrame(findTestObject('Object_Captcha/switchToIframe'), 10)
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('Object_Captcha/check_ImNotARobot'), 10)
+Mobile.tap(findTestObject('Object Repository/Object_LevelUp/field_username'), 5)
 
-WebUI.delay(2)
+Mobile.setText(findTestObject('Object Repository/Object_LevelUp/input_username'), findTestData('DataFile-Internal').getValue(
+		1, 1), 5)
 
-WebUI.takeScreenshotAsCheckpoint('Before Click I\'m Not a Robot ')
+Mobile.hideKeyboard()
 
-WebUI.click(findTestObject('Object_Captcha/check_ImNotARobot'), FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Object Repository/Object_LevelUp/field_password'), 0)
 
-WebUI.delay(60)
+Mobile.setText(findTestObject('Object Repository/Object_LevelUp/input_password'), findTestData('DataFile-Internal').getValue(
+		2, 1), 5)
 
-WebUI.switchToDefaultContent()
+Mobile.hideKeyboard()
 
-WebUI.takeScreenshotAsCheckpoint('After Verify reCaptcha')
+Mobile.tap(findTestObject('Object Repository/Object_LevelUp/button_Login'), 5)
 
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Object_Captcha/button_check'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementPresent(findTestObject('Object_Captcha/verify_successMessage'), 5)
-
-WebUI.takeScreenshotAsCheckpoint('Success Check Captcha')
+Mobile.verifyElementVisible(findTestObject('Object Repository/Object_LevelUp/verify_LoginSuccess'), 5)
 

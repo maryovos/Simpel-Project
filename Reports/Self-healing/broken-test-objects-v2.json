@@ -9,6 +9,16 @@
       "proposedLocatorMethod": "BASIC",
       "recoveryMethod": "BASIC",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Object_Captcha/check_ImNotARobot_BASIC.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/verify_Image_eLearning",
+      "brokenLocator": "http://130.211.243.37:96/storage/images/logo/logo-elearning.svg",
+      "brokenLocatorMethod": "IMAGE",
+      "proposedLocator": "//*[@src \u003d \u0027http://130.211.243.37:96/storage/images/logo/logo-elearning.svg\u0027]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Object_CMS_Elearning/Page_Master Question  Elearning CMS/verify_Image_eLearning_BASIC.png"
     }
   ]
 }

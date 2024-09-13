@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>menu_MasterEmployee</name>
+   <tag></tag>
+   <elementGuidId>377d4ebe-408d-4ff8-bfab-936a707adc4a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = 'http://34.128.87.8:8084/employee']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>f3fbd04e-8ca4-41c5-92be-bf8a5753daf1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>http://34.128.87.8:8084/employee</value>
+      <webElementGuid>ee700752-8e23-4cdf-b48c-dafadff680e5</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

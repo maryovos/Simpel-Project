@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>verify_successMessage</name>
+   <tag></tag>
+   <elementGuidId>28ad96c9-48e1-409f-b059-7a2a58624848</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[@class = '_successMessage_1ndnh_1' and (text() = 'Captcha is passed successfully!' or . = 'Captcha is passed successfully!')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>e22f1a28-632a-411d-9791-29296b101eec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>_successMessage_1ndnh_1</value>
+      <webElementGuid>418844ac-38c7-47f0-9c1b-d3faab058da0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Captcha is passed successfully!</value>
+      <webElementGuid>d7d24565-6ac5-4f3f-a75d-a560583d3a01</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

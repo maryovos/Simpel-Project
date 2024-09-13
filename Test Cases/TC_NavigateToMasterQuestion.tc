@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_NavigateToMasterQuestion</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f1558464-1ed7-4a2f-874c-b2a179a02101</testCaseGuid>
+</TestCaseEntity>

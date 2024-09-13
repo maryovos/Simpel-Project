@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_FindAll_StockTransfer</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5432c19a-d0e8-4791-99f6-1d47fedbc804</testCaseGuid>
+</TestCaseEntity>
